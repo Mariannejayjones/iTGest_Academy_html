@@ -6,12 +6,127 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
   </head>
+
+  <style>
+    body {
+      background-color:#f6f6f2;
+    }
+       
+    h1{
+      font-family: 'Roboto', sans-serif;
+      color: #f6f6f2;
+      font-size:70px;
+      -webkit-text-stroke: 1px; /* Specifies the width and color of strokes for text characters */
+      line-height: 1.2;
+      margin-left:30px;
+      margin-right:30px;
+      margin-top:20px;
+      background-color: #388087;    
+      padding:30px;
+    }
+
+    .pai{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .academia-info{
+      font-family:'Helvetica Neue';
+      color:#388087 ;
+    }
+
+    .habilitacoes{
+      font-family:'Helvetica Neue';
+      color:#388087;
+    }
+
+    .conhecimento{
+      font-family:'Helvetica Neue';
+      color:#388087;
+    }
+
+    .cv{
+      font-family:'Helvetica Neue';
+      color:#388087;
+    }
+
+    .certificado{
+      font-family:'Helvetica Neue';
+      color:#388087;
+      margin-left: 30px;
+    }
+
+    .esclarecimentos{
+      font-family:'Helvetica Neue';
+      color:#388087;
+      margin-top:0px;
+      margin-left: 30px;
+  
+    }
+
+    .consentimento{
+      font-family:'Helvetica Neue';
+      color:#388087;
+      border-style:solid;
+      margin-top:30px;
+      margin-left:30px;
+      margin-right:30px;
+      background-color:#c2edce ;
+    }
+
+    .pai2{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+
+    button{
+      width:400px;
+      border:2px solid #388087;
+      background-color: #388087;
+      color:#f6f6f2;
+      margin-left:35%;
+      margin-bottom:30px;
+
+    }
+
+    @keyframes title {
+      from {
+        
+        opacity: 0;
+      }
+      to {
+      
+        opacity: 1;
+      }
+    }
+
+    .inscreve{
+      position: relative;
+      animation-duration: 6s;
+      animation-name: title;
+      display: inline-block;
+    }
+
+    
+
+
+  </style>
   <body>
 
     <div class="inscreve"> 
-      <h1>Inscreve-te</h1> 
+      <h1>INSCREVE-TE</h1> 
+    </div>
 
     <br><br>
+
+    <div class="pai">
+
+    
 
     <div class="academia-info">
       <label
@@ -139,11 +254,10 @@
         for="outro">
         Outro
       </label>  
-      </div>
+      
 
       <br><br>
 
-      <div class="formacao">
       <label
         for="areasdeformacao">
         Áreas de formação*
@@ -268,12 +382,20 @@
         for="outro">
         Outro
       </label>
+     
+
+      <br><br>
+
+  
+
       </div>
 
       <br><br>
 
-      <div class="date">
-      <label 
+      <div class="conhecimento">
+
+        
+        <label 
         for="date">
         Ano de Conclusão*
       </label>
@@ -285,11 +407,11 @@
         id="anodeconclusao" 
         name="anodeconclusao">
 
-      </div>
+      
 
       <br><br>
 
-      <div>
+    
 
       <label 
         for="motivodacandidatura">
@@ -303,11 +425,7 @@
         id="motivodacandidatura"
         name="motivodacandidatura">
 
-      </div>
-
       <br><br>
-
-      <div class="conhecimento">
 
       <label
         for="conhecimentodaacademia">
@@ -382,7 +500,15 @@
 
       <br><br>
 
-      <div class="cv">
+
+    </div>
+
+    <hr>
+
+    <div class="pai2">
+
+
+    <div class="cv">
       <label
         for="cv">
         Upload de CV*
@@ -425,10 +551,12 @@
       <textarea 
         id="esclarecimentos" 
         name="esclarecimentos" 
-        rows="15" 
-        cols="60">
+        rows="5" 
+        cols="50">
         Deixa-nos aqui as tuas dúvidas/pedido de esclarecimento
       </textarea>
+      </div>
+
       </div>
 
       <br><br>
@@ -450,75 +578,25 @@
       </label> 
       </div>
 
+      
+
       <br><br>
 
+      
       <button
-        type="button">
+        type="button"> 
         Enviar Inscrição
       </button>
 
-  </body>
-</html>
-
-
-
-
- 
-  
-  
-  
-  
-
-
-
-
-  
-
-
-
-
-  
-
-
-
-  
-  
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
     
-  
-
-  
-
-
-
-
-
-
-    
-    
-
-
-
-
 
       
+   
+
+  
 
 
 
-
+  
+  </body>
+</html>
